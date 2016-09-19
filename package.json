@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
     "watch": "gulp watch",
-    "postinstall": "bower install; gulp build; typings install"
+    "postinstall": "bower instal && typings install && gulp build"
   },
   "author": "Vadamk",
   "license": "ISC",
