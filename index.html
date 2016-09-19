@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body ng-app="app" ng-controller="ToDoController">
+
+    <!-- Fixed navbar -->
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>
+            <span class="fa fa-search"></span>
+            {{message || "Theme example"}}
+        </h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angularjs/angular.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

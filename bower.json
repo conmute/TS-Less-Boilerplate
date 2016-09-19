@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "authors": [
+    "Vadamk"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.6.3",
+    "bootstrap": "~3.3.7",
+    "angularjs": "~1.5.8",
+    "jquery": "~3.1.0"
+  }
+}
