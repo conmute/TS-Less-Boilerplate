@@ -10,12 +10,12 @@ Parts of project:
 
 ## Requirements
 
-Make sure all this is installed: `npm`, `bower`, `typings`
+Make sure all these modules installed: `npm`, `bower`, `typings`
 
 If `npm` installed, do this:
 
 ```bash
-npm install -g bower
+npm install -g bower typings
 ```
 
 ## Node project
